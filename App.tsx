@@ -1,3 +1,4 @@
+import React from "react";
 import { config } from "@gluestack-ui/config";
 import { Alert, Box, GluestackUIProvider, Text } from "@gluestack-ui/themed";
 import { ScrollView } from "react-native";
@@ -6,6 +7,7 @@ import DocumentData from "./assets/Icons/DocumentData";
 import LightBulbPerson from "./assets/Icons/LightbulbPerson";
 import Rocket from "./assets/Icons/Rocket";
 import Logo from "./assets/Icons/Logo";
+
 
 export default function App() {
   return (
