@@ -36,11 +36,13 @@ const FeatureCard = ({ iconSvg: IconSvg, name, desc }: any) => {
       p="$4"
       rounded="$md"
     >
-      <Box alignItems="center" display="flex" flexDirection="row">
+        {/* Alias autocompletion doesnt work at all */}
+      <Box alignItems="center" display="flex" flexDirection="row"> {/* Autocompletion without aliases doesnt work on Box */}
         {/* <Image source={iconSvg} alt="document" width={22} height={22} /> */}
         <Text>
           <IconSvg />
         </Text>
+          <Alert /> {/* Autocompletion without aliases work on Alert */}
         <Text fontSize={22} color="$white" fontWeight="500" ml="$2">
           {name}
         </Text>
