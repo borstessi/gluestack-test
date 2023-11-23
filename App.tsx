@@ -1,4 +1,3 @@
-import React from "react";
 import { config } from "@gluestack-ui/config";
 import { Alert, Box, GluestackUIProvider, Text } from "@gluestack-ui/themed";
 import { ScrollView } from "react-native";
