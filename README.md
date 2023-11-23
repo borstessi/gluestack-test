@@ -1,16 +1,13 @@
-This is a [Next.js](https://github.com/expo/expo) + [Gluestack-ui](https://ui.gluestack.io/) project template bootstrapped with [`create-expo-app`](https://docs.expo.dev/get-started/create-a-project/).
+
 
 ## Getting Started
 
 First, run the development server:
 
 ```bash
-# For web
-yarn web
-# For ios
-yarn ios
-# For android
-yarn android
+
+npx expo start
+
 ```
 
 You can start editing the page by modifying `App.tsx`. The page auto-updates as you edit the file.
